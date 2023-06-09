@@ -1,23 +1,38 @@
-&::after {
-        position: absolute;
-        content: "";
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 3px;
-        background: #3498db;
-        transform: scaleX(0);
-        transform-origin: right;
-        transition: transform 0.5s;
-      }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
-      &:hover {
-        color: #95a5a6;
-      }
+    <div class="content-navbar">
+        <ul>
+            <li><a id="navbar-home">Home</a></li>
+            <li><a id="navbar-work">Work</a></li>
+            <li><a id="navbar-contact">Contact</a></li>
+        </ul>
+    </div>
+    
 
-      &:hover::after {
-        transform: scaleX(1);
-        transform-origin: left;
-      }
-    }
-  }
+
+    <!-- Title and subtitle of the page at the top -->
+    <div class="content-title">
+        <h1 class="title">Hi. I'm Bekzod.
+          <div class="aurora">
+            <div class="aurora__item"></div>
+            <div class="aurora__item"></div>
+            <div class="aurora__item"></div>
+            <div class="aurora__item"></div>
+          </div>
+        </h1>
+        <p class="subtitle">Self-taught Softawre Engineer with 3 years of experience</p>
+      </div>
+    <!---->
+
+
+
+</body>
+</html>
